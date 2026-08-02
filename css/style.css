@@ -448,3 +448,17 @@ font-size:24px;
 }
 
 }
+
+
+.hero-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+}
