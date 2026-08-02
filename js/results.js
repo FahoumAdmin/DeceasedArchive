@@ -48,8 +48,8 @@ async function loadInitialData() {
 
         search();
     } catch (error) {
-        console.error("שגיאה בטעינת הנתונים:", error);
-        status.textContent = "לא ניתן לטעון את רשימת האנשים";
+        console.error("خطأ في تحميل البيانات:", error);
+        status.textContent = "لا يمكن تحميل قائمة الأشخاص.";
     }
 }
 
@@ -114,7 +114,7 @@ function clearSearch() {
 // הצגת הטבלה
 function renderTable() {
     resultsBody.innerHTML = "";
-    status.textContent = `נמצאו ${filteredPeople.length} תוצאות`;
+    status.textContent = `وجد ${filteredPeople.length} نتائج`;
 
     const pageItems = getCurrentPageItems();
 
@@ -156,7 +156,7 @@ function updatePagination() {
     }
 
     pagination.classList.remove("hidden");
-    pageInfo.textContent = `עמוד ${currentPage} מתוך ${pages}`;
+    pageInfo.textContent = `صفحة ${currentPage} من ${pages}`;
 
     prevPageBtn.disabled = currentPage <= 1;
     nextPageBtn.disabled = currentPage >= pages;
@@ -203,33 +203,29 @@ function openDetails(person) {
     selectedPerson = person;
 
     detailsContent.innerHTML = `
-        <div class="detail">
-            <div class="detail-title">מספר סידורי</div>
-            ${person.serialNumber}
-        </div>
 
         <div class="detail">
-            <div class="detail-title">שם מלא</div>
+            <div class="detail-title">الاسم الكامل</div>
             ${person.fullName}
         </div>
 
         <div class="detail">
-            <div class="detail-title">תאריך לידה</div>
+            <div class="detail-title">تاريخ الميلاد</div>
             ${formatDate(person.birthDate)}
         </div>
 
         <div class="detail">
-            <div class="detail-title">תאריך קבורה</div>
+            <div class="detail-title">تاريخ الدفن</div>
             ${formatDate(person.burialDate)}
         </div>
 
         <div class="detail">
-            <div class="detail-title">מיקום</div>
+            <div class="detail-title">موقع الدفن</div>
             ${person.location}
         </div>
 
         <div class="detail">
-            <div class="detail-title">מידע כללי</div>
+            <div class="detail-title">معلومات عامة</div>
             ${person.generalInfo}
         </div>
     `;
@@ -247,27 +243,27 @@ async function copyDetails() {
     if (!selectedPerson) return;
 
     const text = `
-שם:
+الاسم:
 ${selectedPerson.fullName}
 
-מספר סידורי:
+الرقم التسلسلي:
 ${selectedPerson.serialNumber}
 
-תאריך לידה:
+تاريخ الميلاد:
 ${formatDate(selectedPerson.birthDate)}
 
-תאריך קבורה:
+تاريخ الدفن:
 ${formatDate(selectedPerson.burialDate)}
 
-מיקום:
+موقع الدفن:
 ${selectedPerson.location}
 
-מידע כללי:
+معلومات عامة:
 ${selectedPerson.generalInfo}
 `;
 
     await navigator.clipboard.writeText(text);
-    alert("הפרטים הועתקו");
+    alert("تم نسخ التفاصيل");
 }
 
 // הדפסה
