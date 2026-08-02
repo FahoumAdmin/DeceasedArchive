@@ -1,12 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>חיפוש אנשים</title>
+
+    <meta name="theme-color" content="#1565c0">
+
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="icon" href="icons/icon-192.png">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
 <header>
+
     <h1>חיפוש אנשים</h1>
+
 </header>
 
 <main class="container">
-
-    <div class="hero-image">
-        <img src="images/banner.jpg" alt="תמונת פתיחה">
-    </div>
 
     <section class="search-panel">
 
@@ -14,14 +32,86 @@
             type="text"
             id="searchInput"
             placeholder="הקלד שם מלא..."
-            autocomplete="off">
+            autocomplete="off" />
 
         <button id="searchBtn">
             חיפוש
         </button>
 
+        <button id="clearBtn">
+            נקה
+        </button>
+
+    </section>
+
+    <section>
+
+        <div id="status">
+            הקלד שם לחיפוש
+        </div>
+
+    </section>
+
+    <section>
+
+        <table id="resultsTable">
+
+            <thead>
+
+                <tr>
+
+                    <th>שם מלא</th>
+                    <th>תאריך קבורה</th>
+                    <th>מיקום</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="resultsBody">
+
+            </tbody>
+
+        </table>
+
     </section>
 
 </main>
 
+<!-- חלון פרטי אדם -->
+
+<div id="detailsModal" class="modal hidden">
+
+    <div class="modal-content">
+
+        <button id="closeModal" class="closeBtn">
+            ✖
+        </button>
+
+        <h2>פרטי אדם</h2>
+
+        <div id="detailsContent">
+
+        </div>
+
+        <div class="modalButtons">
+
+            <button id="copyBtn">
+                העתק פרטים
+            </button>
+
+            <button id="printBtn">
+                הדפס
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
 <script src="js/app.js"></script>
+
+</body>
+
+</html>
