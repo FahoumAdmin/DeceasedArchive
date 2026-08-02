@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>תוצאות חיפוש</title>
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>תוצאות חיפוש</h1>
+</header>
+
+<main class="container">
+
+    <section class="search-panel">
+
+        <button id="backBtn">חיפוש חדש</button>
+
+        <div id="status"></div>
+
+    </section>
+
+    <section>
+
+        <table id="resultsTable">
+
+            <thead>
+                <tr>
+                    <th>שם מלא</th>
+                    <th>תאריך קבורה</th>
+                    <th>מיקום</th>
+                </tr>
+            </thead>
+
+            <tbody id="resultsBody">
+            </tbody>
+
+        </table>
+
+    </section>
+
+</main>
+
+<!-- העתק לכאן את חלון פרטי האדם (detailsModal)
+     מתוך index.html הקיים -->
+
+<script src="js/results.js"></script>
+
+</body>
+</html>
