@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = "people-pwa-v2";
+﻿const CACHE_NAME = "people-pwa-v4";
 
 const FILES_TO_CACHE = [
 

@@ -26,7 +26,7 @@
 
     <a href="index.html" class="backLink">&#8594; חזרה לדף הבית</a>
 
-    <section class="search-panel" visible="false">
+    <section class="search-panel" id="searchPanel">
 
         <input
             type="text"
@@ -66,6 +66,20 @@
             </tbody>
 
         </table>
+
+        <div id="pagination" class="pagination hidden">
+
+            <button id="prevPageBtn">
+                &#8594; הקודם
+            </button>
+
+            <span id="pageInfo"></span>
+
+            <button id="nextPageBtn">
+                הבא &#8592;
+            </button>
+
+        </div>
 
     </section>
 

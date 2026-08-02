@@ -7,6 +7,9 @@ let filteredPeople = [];
 let selectedPerson = null;
 let currentSort = "name";
 
+let currentPage = 1;
+const PAGE_SIZE = 5;
+
 // אלמנטים מהמסך
 const searchInput = document.getElementById("searchInput");
 const searchBtn = document.getElementById("searchBtn");
@@ -18,6 +21,10 @@ const closeModal = document.getElementById("closeModal");
 const detailsContent = document.getElementById("detailsContent");
 const copyBtn = document.getElementById("copyBtn");
 const printBtn = document.getElementById("printBtn");
+const pagination = document.getElementById("pagination");
+const prevPageBtn = document.getElementById("prevPageBtn");
+const nextPageBtn = document.getElementById("nextPageBtn");
+const pageInfo = document.getElementById("pageInfo");
 
 document.addEventListener("DOMContentLoaded", init);
 
@@ -54,6 +61,8 @@ function setupEvents() {
     closeModal.addEventListener("click", closeDetails);
     copyBtn.addEventListener("click", copyDetails);
     printBtn.addEventListener("click", printDetails);
+    prevPageBtn.addEventListener("click", goToPrevPage);
+    nextPageBtn.addEventListener("click", goToNextPage);
 }
 
 // חיפוש
@@ -72,6 +81,7 @@ function search() {
     }
 
     sortResults();
+    currentPage = 1;
     renderTable();
 }
 
@@ -97,6 +107,7 @@ function clearSearch() {
     updateUrl("");
 
     filteredPeople = [...people];
+    currentPage = 1;
     renderTable();
 }
 
@@ -105,7 +116,9 @@ function renderTable() {
     resultsBody.innerHTML = "";
     status.textContent = `נמצאו ${filteredPeople.length} תוצאות`;
 
-    filteredPeople.forEach(person => {
+    const pageItems = getCurrentPageItems();
+
+    pageItems.forEach(person => {
         const row = document.createElement("tr");
 
         row.innerHTML = `
@@ -118,6 +131,55 @@ function renderTable() {
 
         resultsBody.appendChild(row);
     });
+
+    updatePagination();
+}
+
+// מחזיר את הרשומות של העמוד הנוכחי בלבד
+function getCurrentPageItems() {
+    const start = (currentPage - 1) * PAGE_SIZE;
+    return filteredPeople.slice(start, start + PAGE_SIZE);
+}
+
+// מספר העמודים הכולל
+function totalPages() {
+    return Math.max(1, Math.ceil(filteredPeople.length / PAGE_SIZE));
+}
+
+// עדכון פקדי הדפדוף (הצגה/הסתרה, טקסט עמוד, נטרול כפתורים בקצוות)
+function updatePagination() {
+    const pages = totalPages();
+
+    if (filteredPeople.length <= PAGE_SIZE) {
+        pagination.classList.add("hidden");
+        return;
+    }
+
+    pagination.classList.remove("hidden");
+    pageInfo.textContent = `עמוד ${currentPage} מתוך ${pages}`;
+
+    prevPageBtn.disabled = currentPage <= 1;
+    nextPageBtn.disabled = currentPage >= pages;
+}
+
+function goToPrevPage() {
+    if (currentPage <= 1) return;
+
+    currentPage--;
+    renderTable();
+    scrollToTableTop();
+}
+
+function goToNextPage() {
+    if (currentPage >= totalPages()) return;
+
+    currentPage++;
+    renderTable();
+    scrollToTableTop();
+}
+
+function scrollToTableTop() {
+    document.getElementById("resultsTable").scrollIntoView({ block: "start", behavior: "smooth" });
 }
 
 // הדגשת טקסט החיפוש
