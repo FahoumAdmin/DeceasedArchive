@@ -123,8 +123,8 @@ function renderTable() {
 
         row.innerHTML = `
             <td>${highlight(person.fullName)}</td>
+            <td>${formatDate(person.birthDate)}</td>
             <td>${formatDate(person.burialDate)}</td>
-            <td>${person.location}</td>
         `;
 
         row.addEventListener("click", () => openDetails(person));
