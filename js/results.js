@@ -114,7 +114,7 @@ function clearSearch() {
 // הצגת הטבלה
 function renderTable() {
     resultsBody.innerHTML = "";
-    status.textContent = `وجد ${filteredPeople.length} نتائج`;
+    status.textContent = `وجد ${filteredPeople.length} بيانات`;
 
     const pageItems = getCurrentPageItems();
 
