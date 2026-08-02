@@ -22,5 +22,37 @@
     "burialDate": "2022-06-30",
     "location": "חלקה ב, שורה 8, קבר 12",
     "generalInfo": "מידע נוסף"
+  },
+  {
+    "serialNumber": "000004",
+    "fullName": "משה סעדי",
+    "birthDate": "1950-03-18",
+    "burialDate": "2022-06-30",
+    "location": "חלקה ב, שורה 8, קבר 12",
+    "generalInfo": "מידע נוסף"
+  },
+  {
+    "serialNumber": "000005",
+    "fullName": "אמנון לוי",
+    "birthDate": "1950-03-18",
+    "burialDate": "2022-06-30",
+    "location": "חלקה ב, שורה 8, קבר 12",
+    "generalInfo": "מידע נוסף"
+  },
+  {
+    "serialNumber": "000006",
+    "fullName": "דוד הראל",
+    "birthDate": "1950-03-18",
+    "burialDate": "2022-06-30",
+    "location": "חלקה ב, שורה 8, קבר 12",
+    "generalInfo": "מידע נוסף"
+  },
+  {
+    "serialNumber": "000007",
+    "fullName": "מיה דגן",
+    "birthDate": "1950-03-18",
+    "burialDate": "2022-06-30",
+    "location": "חלקה ב, שורה 8, קבר 12",
+    "generalInfo": "מידע נוסף"
   }
 ]
