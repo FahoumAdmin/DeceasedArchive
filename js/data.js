@@ -8,7 +8,7 @@ async function loadPeople() {
     const response = await fetch("data/people.json");
 
     if (!response.ok) {
-        throw new Error("שגיאת רשת בטעינת הנתונים");
+        throw new Error("خطأ في الشبكة أثناء تحميل البيانات");
     }
 
     return await response.json();
