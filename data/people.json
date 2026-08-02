@@ -1,0 +1,26 @@
+﻿[
+  {
+    "serialNumber": "000001",
+    "fullName": "ישראל ישראלי",
+    "birthDate": "1935-06-10",
+    "burialDate": "2024-01-15",
+    "location": "חלקה א, שורה 4, קבר 18",
+    "generalInfo": "מידע כללי על האדם הראשון"
+  },
+  {
+    "serialNumber": "000002",
+    "fullName": "שרה כהן",
+    "birthDate": "1941-02-21",
+    "burialDate": "2023-11-08",
+    "location": "חלקה ג, שורה 2, קבר 7",
+    "generalInfo": "מידע כללי על האדם השני"
+  },
+  {
+    "serialNumber": "000003",
+    "fullName": "משה לוי",
+    "birthDate": "1950-03-18",
+    "burialDate": "2022-06-30",
+    "location": "חלקה ב, שורה 8, קבר 12",
+    "generalInfo": "מידע נוסף"
+  }
+]
