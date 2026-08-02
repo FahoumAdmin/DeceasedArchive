@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = "people-pwa-v4";
+const CACHE_NAME = "people-pwa-v5";
 
 const FILES_TO_CACHE = [
 
@@ -25,6 +25,8 @@ const FILES_TO_CACHE = [
 self.addEventListener(
     "install",
     event => {
+
+        self.skipWaiting();
 
         event.waitUntil(
 
@@ -75,6 +77,7 @@ self.addEventListener(
                 }
 
             )
+            .then(() => self.clients.claim())
 
         );
 
@@ -87,6 +90,35 @@ self.addEventListener(
     "fetch",
     event => {
 
+        // קובץ הנתונים - תמיד לנסות רשת קודם, וליפול חזרה ל-cache רק אם אין חיבור
+        if(event.request.url.includes("data/people.json")){
+
+            event.respondWith(
+
+                fetch(event.request)
+                .then(
+                    response => {
+
+                        const clone = response.clone();
+
+                        caches.open(CACHE_NAME)
+                        .then(cache => cache.put(event.request, clone));
+
+                        return response;
+
+                    }
+                )
+                .catch(
+                    () => caches.match(event.request)
+                )
+
+            );
+
+            return;
+
+        }
+
+        // שאר הקבצים - כרגיל, cache קודם ואז רשת
         event.respondWith(
 
             caches.match(event.request)
