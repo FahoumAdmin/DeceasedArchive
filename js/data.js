@@ -25,12 +25,25 @@ function normalizeText(text) {
         .replace(/ץ/g, "צ");
 }
 
-// פורמט תאריך dd/mm/yyyy
+// פורמט תאריך - תומך בתאריך מלא (YYYY-MM-DD), שנה+חודש (YYYY-MM), או שנה בלבד (YYYY)
 function formatDate(date) {
     if (!date) return "";
 
     const parts = date.split("-");
-    return `${parts[2]}/${parts[1]}/${parts[0]}`;
+
+    const year = parts[0];
+    const month = parts[1];
+    const day = parts[2];
+
+    if (day) {
+        return `${day}/${month}/${year}`;
+    }
+
+    if (month) {
+        return `${month}/${year}`;
+    }
+
+    return year;
 }
 
 // רישום Service Worker

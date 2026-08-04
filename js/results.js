@@ -39,12 +39,17 @@ async function loadInitialData() {
         people = await loadPeople();
         filteredPeople = [...people];
 
-        // מונח החיפוש מגיע מכתובת ה-URL (מדף הבית) או מהחיפוש האחרון שנשמר
         const params = new URLSearchParams(window.location.search);
         const queryFromUrl = params.get("q");
         const lastSearch = localStorage.getItem("lastSearch");
+        const sortFromUrl = params.get("sort");
 
-        searchInput.value = queryFromUrl ?? lastSearch ?? "";
+        if (sortFromUrl === "oldestBurial" || sortFromUrl === "newestBurial") {
+            currentSort = sortFromUrl;
+            searchInput.value = "";
+        } else {
+            searchInput.value = queryFromUrl ?? lastSearch ?? "";
+        }
 
         search();
     } catch (error) {
@@ -55,14 +60,33 @@ async function loadInitialData() {
 
 // אירועים
 function setupEvents() {
-    searchBtn.addEventListener("click", search);
+    searchBtn.addEventListener("click", exitSpecialSortModeAndSearch);
     clearBtn.addEventListener("click", clearSearch);
-    searchInput.addEventListener("input", search);
+    searchInput.addEventListener("input", exitSpecialSortModeAndSearch);
     closeModal.addEventListener("click", closeDetails);
     copyBtn.addEventListener("click", copyDetails);
     printBtn.addEventListener("click", printDetails);
     prevPageBtn.addEventListener("click", goToPrevPage);
     nextPageBtn.addEventListener("click", goToNextPage);
+}
+
+// אם המשתמש מתחיל לחפש באופן ידני, יוצאים ממצבי "5 הקבורות" וחוזרים למיון לפי שם
+function exitSpecialSortModeAndSearch() {
+    if (currentSort === "oldestBurial" || currentSort === "newestBurial") {
+        currentSort = "name";
+        removeSortParamFromUrl();
+    }
+
+    search();
+}
+
+function removeSortParamFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    params.delete("sort");
+
+    const query = params.toString();
+    const newUrl = window.location.pathname + (query ? `?${query}` : "");
+    window.history.replaceState({}, "", newUrl);
 }
 
 // חיפוש
@@ -81,6 +105,12 @@ function search() {
     }
 
     sortResults();
+
+    // במצבי "5 הקבורות הוותיקות/האחרונות" מציגים רק חמישה
+    if (currentSort === "oldestBurial" || currentSort === "newestBurial") {
+        filteredPeople = filteredPeople.slice(0, 5);
+    }
+
     currentPage = 1;
     renderTable();
 }
@@ -114,7 +144,14 @@ function clearSearch() {
 // הצגת הטבלה
 function renderTable() {
     resultsBody.innerHTML = "";
-    status.textContent = `وجد ${filteredPeople.length} بيانات`;
+
+    if (currentSort === "oldestBurial") {
+        status.textContent = "أقدم 5 حالات دفن (من الأقدم إلى الأحدث)";
+    } else if (currentSort === "newestBurial") {
+        status.textContent = "أحدث 5 حالات دفن (من الأحدث إلى الأقدم)";
+    } else {
+        status.textContent = `وجد ${filteredPeople.length} بيانات`;
+    }
 
     const pageItems = getCurrentPageItems();
 
@@ -274,6 +311,20 @@ function printDetails() {
 // מיון
 function sortResults() {
     filteredPeople.sort((a, b) => {
+        if (currentSort === "oldestBurial") {
+            // רשומות בלי תאריך קבורה יידחקו לסוף, לא ייחשבו "הכי ותיקות"
+            const dateA = a.burialDate || "9999";
+            const dateB = b.burialDate || "9999";
+            return dateA.localeCompare(dateB);
+        }
+
+        if (currentSort === "newestBurial") {
+            // רשומות בלי תאריך קבורה יידחקו לסוף, לא ייחשבו "הכי אחרונות"
+            const dateA = a.burialDate || "0000";
+            const dateB = b.burialDate || "0000";
+            return dateB.localeCompare(dateA);
+        }
+
         if (currentSort === "name") {
             return a.fullName.localeCompare(b.fullName, "he");
         }
