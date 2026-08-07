@@ -252,12 +252,12 @@ function openDetails(person) {
         </div>
 
         <div class="detail">
-            <div class="detail-title">تاريخ الدفن</div>
+            <div class="detail-title">تاريخ الوفاة</div>
             ${formatDate(person.burialDate)}
         </div>
 
         <div class="detail">
-            <div class="detail-title">موقع الدفن</div>
+            <div class="detail-title">موقع الوفاة</div>
             ${person.location}
         </div>
 
@@ -289,7 +289,7 @@ ${selectedPerson.serialNumber}
 تاريخ الميلاد:
 ${formatDate(selectedPerson.birthDate)}
 
-تاريخ الدفن:
+تاريخ الوفاة:
 ${formatDate(selectedPerson.burialDate)}
 
 موقع الدفن:
