@@ -4,7 +4,7 @@
     "fullName": "يوسف محمد علي الفاهوم",
     "birthDate": "1904",
     "burialDate": "1969-04-07",
-    "location": "חלקה א, שורה 4, קבר 18",
+    "location": "بجانب فستقية الشيخ يوسف الفاهوم",
     "generalInfo": "هو سياسي فلسطيني، ورئيس بلدية الناصرة خلال نكبة عام 1948، عُرف بدوره البارز في حماية المدينة من التهجير والدمار، من خلال قيادته لمفاوضات مع القوات الإسرائيلية أفضت إلى توقيع اتفاقية سلمية حافظت على المدينة وسكانها."
   },
   {
@@ -12,7 +12,7 @@
     "fullName": "وليد ابراهيم الفاهوم",
     "birthDate": "1943-02-21",
     "burialDate": "2025-12-14",
-    "location": "חלקה ג, שורה 2, קבר 7",
+     "location": "فستقية الشيخ ميلاد الفاهوم",
     "generalInfo": " محامي وباحث وكاتب فلسطيني من مواليد مدينة الناصرة عام 1943، درس فاهوم في مدرسة الفرير وفي المدرسة الثانوية للبلدية في الناصرة، حصل على شهادة البكلوريوس في الفلسفة وعلم النفس من الجامعة العبرية في القدس، وفي عام 1974 حصل على إجازة الحقوق، نشط اجتماعيًا وثقافيًا، وانخرط في المؤسسات الوطنية بشكل خاص، ساهم في تأسيس اتحاد جمعيات العمل التطوعي في الناصرة."
   },
   {
@@ -280,91 +280,107 @@
     "generalInfo": ""
   },
   {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "serialNumber": "000048",
+    "fullName": "طلال سميح الفاهوم",
+    "birthDate": "1944",
+    "burialDate": "",
+    "location": "فستقية الشيخ يوسف الفاهوم",
     "generalInfo": ""
   },
   {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
-    "generalInfo": ""
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
-    "generalInfo": ""
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
-    "generalInfo": ""
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
-    "generalInfo": ""
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
-    "generalInfo": ""
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
-    "generalInfo": ""
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
-    "generalInfo": ""
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
-    "generalInfo": ""
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "فستقية الشيخ محمد علي الفاهوم",
-    "generalInfo": ""
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال 1 توفيق الفاهوم",
+    "serialNumber": "000049",
+    "fullName": "وداد حسن الفاهوم",
     "birthDate": "",
-    "burialDate": "2022-06-30",
+    "burialDate": "1980-12-24",
     "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000050",
+    "fullName": "سميح سعيد الفاهوم",
+    "birthDate": "",
+    "burialDate": "",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000051",
+    "fullName": "غازي سميح الفاهوم",
+    "birthDate": "",
+    "burialDate": "",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000052",
+    "fullName": "سميرة سميح الفاهوم",
+    "birthDate": "",
+    "burialDate": "",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000053",
+    "fullName": "نزيه ماجد الفاهوم",
+    "birthDate": "1940-10-05",
+    "burialDate": "2001-03-15",
+    "location": "بجانب فستقية الشيخ يوسف الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000054",
+    "fullName": "زينب محمد خطيب الفاهوم",
+    "birthDate": "",
+    "burialDate": "1956-11-26",
+   "location": "بجانب فستقية الشيخ يوسف الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000055",
+    "fullName": "حسن محمد علي الفاهوم",
+    "birthDate": "1916",
+    "burialDate": "2001-06-12",
+    "location": "بجانب فستقية الشيخ يوسف الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000056",
+    "fullName": "أيمن ممدوح الفاهوم",
+    "birthDate": "1960-08-26",
+    "burialDate": "2015-06-25",
+    "location": "بجانب فستقية الشيخ يوسف الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000057",
+    "fullName": "سميرة عبد الرؤوف نسيبه الفاهوم",
+    "birthDate": "1934",
+    "burialDate": "1989-06-29",
+    "location": "بجانب فستقية الشيخ يوسف الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000058",
+    "fullName": "عباس أمين الفاهوم",
+    "birthDate": "",
+    "burialDate": "",
+    "location": "بجانب فستقية الشيخ ميلاد الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000059",
+    "fullName": "فضل عباس أمين الفاهوم",
+    "birthDate": "",
+    "burialDate": "1952",
+    "location": "بجانب فستقية الشيخ ميلاد الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000060",
+    "fullName": "ممدوح فضل عباس أمين الفاهوم",
+    "birthDate": "1926-06-26",
+    "burialDate": "1997-08-21",
+    "location": "بجانب فستقية الشيخ ميلاد الفاهوم",
     "generalInfo": ""
   }
 ]
