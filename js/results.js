@@ -257,7 +257,7 @@ function openDetails(person) {
         </div>
 
         <div class="detail">
-            <div class="detail-title">موقع الوفاة</div>
+            <div class="detail-title">موقع الدفن</div>
             ${person.location}
         </div>
 
