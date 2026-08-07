@@ -37,7 +37,7 @@
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
     "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "generalInfo": ""
   },
   {
     "serialNumber": "000006",
@@ -65,306 +65,306 @@
   },
   {
     "serialNumber": "000021",
+    "fullName": "رضية عبدالله الفاهوم",
+    "birthDate": "1902",
+    "burialDate": "1976",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000022",
+    "fullName": "ليلى سليم بدر الفاهوم",
+    "birthDate": "1950",
+    "burialDate": "1986",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000023",
+    "fullName": "روحانية محمد علي الفاهوم",
+    "birthDate": "1914",
+    "burialDate": "1980-12-24",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""  
+  },
+  {
+    "serialNumber": "000024",
+    "fullName": "فاطمة عمر الفاهوم",
+    "birthDate": "1893",
+    "burialDate": "1986-12-21",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000025",
+    "fullName": "فاطمة عبد الحميد الفاهوم",
+    "birthDate": "1922",
+    "burialDate": "1988-01-16",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000026",
+    "fullName": "سمية فضل الفاهوم",
+    "birthDate": "1925",
+    "burialDate": "1978-11-21",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000027",
+    "fullName": "سهير فؤاد حسن الفاهوم",
+    "birthDate": "1958-05-27",
+    "burialDate": "2014-07-29",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000028",
+    "fullName": "فضية حامد الفاهوم",
+    "birthDate": "1918",
+    "burialDate": "1990-07-31",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000029",
+    "fullName": "شريف عمر الفاهوم",
+    "birthDate": "1905",
+    "burialDate": "1979-03-18",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000030",
+    "fullName": "أحمد رافع الفاهوم",
+    "birthDate": "1925",
+    "burialDate": "1981-03-16",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000031",
+    "fullName": "طاهر محمد علي الفاهوم",
+    "birthDate": "1913",
+    "burialDate": "1975-06-15",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000032",
+    "fullName": "عادل توفيق الفاهوم",
+    "birthDate": "1921",
+    "burialDate": "1984-03-05",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000033",
+    "fullName": "فخر الدين أسعد الفاهوم",
+    "birthDate": "1914",
+    "burialDate": "1977",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000034",
+    "fullName": "نبيل عباس الفاهوم",
+    "birthDate": "1948-04-19",
+    "burialDate": "1980-08-11",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000035",
+    "fullName": "قاسم عبد اللطيف الفاهوم",
+    "birthDate": "1885",
+    "burialDate": "1977",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000036",
+    "fullName": "عزمي يوسف محمد علي الفاهوم",
+    "birthDate": "1932-11-15",
+    "burialDate": "1986-06-11",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000037",
+    "fullName": "عوني يوسف محمد علي الفاهوم",
+    "birthDate": "1925",
+    "burialDate": "1986",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000038",
+    "fullName": "نادية جمال توفيق الفاهوم",
+    "birthDate": "1943",
+    "burialDate": "2023-11-09",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000039",
+    "fullName": "هيام حسن الفاهوم",
+    "birthDate": "1932-12-26",
+    "burialDate": "2020-10-24",
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
+  },
+  {
+    "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
+    "birthDate": "",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   },
   {
     "serialNumber": "000005",
     "fullName": "جمال توفيق الفاهوم",
     "birthDate": "1950-03",
     "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
-  },
-  {
-    "serialNumber": "000005",
-    "fullName": "جمال توفيق الفاهوم",
-    "birthDate": "1950-03",
-    "burialDate": "2022-06-30",
-    "location": "חלקה ב, שורה 8, קבר 12",
-    "generalInfo": "מידע נוסף"
+    "location": "فستقية الشيخ محمد علي الفاهوم",
+    "generalInfo": ""
   }
 ]
